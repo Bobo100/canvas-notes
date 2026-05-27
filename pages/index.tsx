@@ -46,7 +46,7 @@ function HomePage() {
                 {`const canvasRef = useRef<HTMLCanvasElement | null>(null);`}
             </CommonPrism>
 
-            <p>當然，我們必須把ref加到Canvas上 (如果你不知道什麼是ref，請參考這篇文章)<a href="https://bobo100.github.io/React-Hook/">這裡可以學習useRef</a></p>
+            <p>當然，我們必須把ref加到Canvas上 (如果你不知道什麼是ref，請參考這篇文章)<a href="https://bobo100.github.io/react-hook-notes/">這裡可以學習useRef</a></p>
 
 
             <CommonPrism>
