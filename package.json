@@ -2,6 +2,9 @@
   "name": "canvas-dictionary",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.19"
+  },
   "dependencies": {
     "@types/node": "^22.20.5",
     "@types/react": "^19.3.0",
