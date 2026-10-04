@@ -18,9 +18,9 @@ function CanvasImageAdvance() {
             <div>
                 <h1>Canvas的圖片繪製(進階版)</h1>
                 <p>在上一篇中，我們介紹了Canvas的圖片繪製，但是在實際的開發中，我們會需要更多的功能，像是圖片的縮放、
-                    <a href="/CanvasImageAdvance#image_rotate">旋轉</a>
-                    、<a href="/CanvasImageAdvance#image_clip">裁切</a>
-                    、<a href="/CanvasImageAdvance">放大鏡</a>
+                    <a href="#image_rotate">旋轉</a>
+                    、<a href="#image_clip">裁切</a>
+                    、<a href="#image_pixel_zoom">放大鏡</a>
                     等等，下面馬上就來介紹一下這些功能。</p>
                 <h2>圖片的縮放</h2>
                 <h3>從圖片的中心點開始縮放(有很多作法，這邊提供一種)</h3>
@@ -73,7 +73,7 @@ ctx.fillRect(150, 40, 100, 100);`}
                 <CanvasImageClip src="./images/mountain.jpg" />
 
 
-                <h2>放大鏡 PixelZoom (官方版本)</h2>
+                <h2 id="image_pixel_zoom">放大鏡 PixelZoom (官方版本)</h2>
                 <CanvasZoom src="./images/mountain.jpg" />
 
                 {/* <p>我們可以使用<code>globalCompositeOperation</code>來處理這個問題，這個屬性可以讓我們決定當兩個圖層重疊時，要如何處理。</p>
