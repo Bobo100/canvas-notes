@@ -27,6 +27,7 @@
 ```bash
 npm install
 npm run dev   # http://localhost:3000
+npm run lint
 ```
 
-技術:Next.js 13(Pages Router)、React 18、TypeScript、SCSS。
+技術:Next.js 16(Pages Router)、React 19、TypeScript、SCSS。
